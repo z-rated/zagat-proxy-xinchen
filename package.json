@@ -1,0 +1,25 @@
+{
+  "name": "zagat-proxy-eugenia",
+  "version": "1.0.0",
+  "description": "proxy server for zagat.com for all components",
+  "main": "index.js",
+  "proxy": "http://localhost:1000",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-notorious-f-e-c/zagat-proxy-eugenia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-notorious-f-e-c/zagat-proxy-eugenia/issues"
+  },
+  "homepage": "https://github.com/the-notorious-f-e-c/zagat-proxy-eugenia#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.8.6"
+  }
+}
