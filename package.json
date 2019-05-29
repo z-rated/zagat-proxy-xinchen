@@ -20,6 +20,8 @@
   "homepage": "https://github.com/the-notorious-f-e-c/zagat-proxy-eugenia#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "react": "^16.8.6"
-  }
+    "react": "^16.8.6",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {}
 }
