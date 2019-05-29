@@ -13,9 +13,11 @@ body {
 #reviews {
   margin: 32px;
   margin-right: 0px;
-  display:inline-block;
+  height: 100%;
+  display: inline-block;
   background-color: white;
   flex: 1 1 50%;
+  min-width: 300px;
 }
 
 #info {
