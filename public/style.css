@@ -10,14 +10,17 @@ body {
   width: 100%;
 }
 
-#reviews {
+#allReviews {
   margin: 32px;
   margin-right: 0px;
   height: 100%;
   display: inline-block;
-  background-color: white;
   flex: 1 1 50%;
-  min-width: 300px;
+  min-width: 300px; 
+}
+
+#reviews {
+  margin-bottom: 32px;
 }
 
 #info {
