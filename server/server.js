@@ -9,22 +9,22 @@ app.get('/restaurants/:id', (req, res) => {
   res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
-app.get('/restaurants/:id/photos', (req, res) => {
+app.get('/api/restaurants/:id/photos', (req, res) => {
   const { id } = req.params;
-  res.redirect(`http://localhost:3000/api/restaurants/${id}/photos`);
+  res.redirect(`http://3.88.8.197:3000/api/restaurants/${id}/photos`);
 })
 
-app.get('/restaurants/:id/reviews', (req, res) => {
+app.get('/api/restaurants/:id/reviews', (req, res) => {
   const { id } = req.params;
   res.redirect(`http://localhost:3001/api/restaurants/${id}/reviews`);
 })
 
-app.get('/restaurants/:id/info', (req, res) => {
+app.get('/api/restaurants/:id/info', (req, res) => {
   const { id } = req.params;
-  res.redirect(`http://localhost:3002/api/restaurants/${id}/info`);
+  res.redirect(`http://3.16.165.5:3002/api/restaurants/${id}/info`);
 })
 
-app.get('/restaurants/:id/googlereviews', (req, res) => {
+app.get('/api/restaurants/:id/googlereviews', (req, res) => {
   const { id } = req.params;
   res.redirect(`http://localhost:3003/api/restaurants/${id}/googlereviews`);
 })

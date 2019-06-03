@@ -6,7 +6,8 @@
   "proxy": "http://localhost:1000",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node server/server.js"
+    "start": "node server/server.js",
+    "startdev": "nodemon server/server/js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "dependencies": {
     "express": "^4.17.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "shrink-ray-current": "^4.0.0"
+  }
 }
