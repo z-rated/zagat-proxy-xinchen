@@ -1,3 +1,4 @@
+require('newrelic');
 const express = require('express');
 const path = require('path');
 
@@ -26,7 +27,7 @@ app.get('/api/restaurants/:id/info', (req, res) => {
 
 app.get('/api/restaurants/:id/googlereviews', (req, res) => {
   const { id } = req.params;
-  res.redirect(`http://localhost:3003/api/restaurants/${id}/googlereviews`);
+  res.redirect(`http://ec2-54-183-14-145.us-west-1.compute.amazonaws.com:3003/api/restaurants/${id}/googlereviews`);
 })
 
 app.listen(port, console.log('proxy server listening on port', port));
